@@ -12,10 +12,10 @@ def char_ngram(s, n):
 def gram_search(s, ngram, name):
     for i in range(len(ngram)):
         if s == ngram[i]:
-            print("'" + s + "'" + " exists in " + name)
+            print('\'{0}\'は{1}に含まれる'.format(s, name))
             break
     else:
-        print("'" + s + "'" + " doesn't exist in " + name)
+        print('\'{0}\'は{1}に含まれない'.format(s, name))
 
 
 s1 = "paraparaparadise"
@@ -24,7 +24,7 @@ X = set(char_ngram(s1, 2))
 Y = set(char_ngram(s2, 2))
 intersection = X & Y
 difference = X - Y
-print(intersection)
-print(difference)
+print('XとYの和集合 : {}'.format(intersection))
+print('XとYの差集合 : {}'.format(difference))
 gram_search('se', list(X), 'X')
 gram_search('se', list(Y), 'Y')

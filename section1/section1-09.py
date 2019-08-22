@@ -24,6 +24,6 @@ def word_rondom_change(s1):
 
 s1 = "I couldn't believe that I could actually understand " + \
     "what I was reading : the phenomenal power of the human mind ."
-print(s1)
+print('Typoglycemia前 : {}'.format(s1))
 s2 = word_rondom_change(s1)
-print(s2)
+print('Typoglycemia後 : {}'.format(s2))

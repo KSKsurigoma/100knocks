@@ -11,9 +11,9 @@ def cipner(s1):
     return s_out
 
 
-s1 = "abzDeFg0"
-print(s1)
+s1 = "abzDeFgHijkLmNOpQrstUVWxyzhWopTc0"
+print('暗号化前 : {}'.format(s1))
 s2 = cipner(s1)
-print(s2)
+print('暗号化後 : {}'.format(s2))
 s3 = cipner(s2)
-print(s3)
+print('複合化後 : {}'.format(s3))
