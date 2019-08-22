@@ -4,8 +4,8 @@ s2 = s1.split()
 print(s2)
 list1 = []
 for s in s2:
-    l = len(s)
+    len = len(s)
     if s.endswith(',') or s.endswith('.'):
-        l -= 1
-    list1.append(l)
+        len -= 1
+    list1.append(len)
 print(list1)

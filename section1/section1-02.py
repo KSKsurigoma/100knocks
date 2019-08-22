@@ -2,6 +2,7 @@
 def jp(s, n):
     return s[n-1] + s[n] + s[n+1]
 
+
 s1 = "パトカー"
 s2 = "タクシー"
 s3 = ""
