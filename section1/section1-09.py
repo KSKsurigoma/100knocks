@@ -22,7 +22,8 @@ def word_rondom_change(s1):
     return s_out
 
 
-s1 = "I couldn't believe that I could actually understand what I was reading : the phenomenal power of the human mind ."
+s1 = "I couldn't believe that I could actually understand " + \
+    "what I was reading : the phenomenal power of the human mind ."
 print(s1)
 s2 = word_rondom_change(s1)
 print(s2)

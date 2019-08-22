@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
-s1 = "Hi He Lied Because Boron Could Not Oxidize Fluorine. New Nations Might Also Sign Peace Security Clause. Arthur King Can."
+s1 = "Hi He Lied Because Boron Could Not Oxidize Fluorine. " + \
+    "New Nations Might Also Sign Peace Security Clause. Arthur King Can."
 s2 = s1.split()
 print(s2)
 dict1 = {}
