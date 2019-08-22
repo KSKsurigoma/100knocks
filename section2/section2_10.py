@@ -1,6 +1,6 @@
-text_data = open("hightemp.txt", "r")
+file_r = 'hightemp.txt'
 count = 0
-for line in text_data:
-    count += 1
-text_data.close()
+with open(file_r) as f_r:
+    for line in f_r:
+        count += 1
 print(count)
