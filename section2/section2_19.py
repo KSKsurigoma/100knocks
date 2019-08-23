@@ -8,4 +8,6 @@ with open(file_r) as f_r:
         line_split = line.split("\t")
         col1_list.append(line_split[0])
 col1_counter = collections.Counter(col1_list)
-print(col1_counter)
+col1_list_sorted = col1_counter.most_common()
+for col1 in col1_list_sorted:
+    print('{0} : {1}'.format(col1[0], col1[1]))
