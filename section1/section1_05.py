@@ -20,6 +20,7 @@ def word_ngram(s, n):
     return li
 
 
-s1 = "I am an NLPer"
-print(char_ngram(s1, 2))
-print(word_ngram(s1, 2))
+if __name__ == "__main__":
+    s1 = "I am an NLPer"
+    print(char_ngram(s1, 2))
+    print(word_ngram(s1, 2))
